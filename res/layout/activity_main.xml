@@ -8,13 +8,26 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/大标题栏背景"
+        android:background="@drawable/main_title_background"
+        android:gravity="center_vertical"
         android:orientation="horizontal" >
 
-        <TextView
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TEST" />
+            android:src="@drawable/main_title_left" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/GameCenter" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/main_title_right" />
     </LinearLayout>
 
 </LinearLayout>

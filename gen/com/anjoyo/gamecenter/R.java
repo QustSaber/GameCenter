@@ -21,16 +21,55 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int main_title_background=0x7f020001;
-        public static final int main_title_left=0x7f020002;
-        public static final int main_title_right=0x7f020003;
+        public static final int black_circle=0x7f020000;
+        public static final int button_download=0x7f020001;
+        public static final int button_download_pressed=0x7f020002;
+        public static final int button_download_selector=0x7f020003;
+        public static final int focus_default=0x7f020004;
+        public static final int gameinfo_default=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int main_title_background=0x7f020007;
+        public static final int main_title_left=0x7f020008;
+        public static final int main_title_right=0x7f020009;
+        public static final int ratingbar=0x7f02000a;
+        public static final int star_background=0x7f02000b;
+        public static final int star_progress=0x7f02000c;
+        public static final int white_circle=0x7f02000d;
+        public static final int xlistview_arrow=0x7f02000e;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int action_settings=0x7f080017;
+        public static final int frame_activity_main=0x7f080000;
+        public static final int imgCircle1_fragment_recommend=0x7f080002;
+        public static final int imgCircle2_fragment_recommend=0x7f080003;
+        public static final int imgCircle3_fragment_recommend=0x7f080004;
+        public static final int imgCircle4_fragment_recommend=0x7f080005;
+        public static final int img_fragment_recommend_viewpager=0x7f080007;
+        public static final int img_listview_item_rf=0x7f080008;
+        public static final int listView_fragment_recommend=0x7f080006;
+        public static final int ratingBar_listview_item_rf=0x7f08000a;
+        public static final int txtDownload_listview_item_rf=0x7f08000c;
+        public static final int txtNum_listview_item_rf=0x7f08000b;
+        public static final int txtSize_listview_item_rf=0x7f08000d;
+        public static final int txtTitle_listview_item_rf=0x7f080009;
+        public static final int viewPager_fragment_recommend=0x7f080001;
+        public static final int xlistview_footer_content=0x7f08000e;
+        public static final int xlistview_footer_hint_textview=0x7f080010;
+        public static final int xlistview_footer_progressbar=0x7f08000f;
+        public static final int xlistview_header_arrow=0x7f080015;
+        public static final int xlistview_header_content=0x7f080011;
+        public static final int xlistview_header_hint_textview=0x7f080013;
+        public static final int xlistview_header_progressbar=0x7f080016;
+        public static final int xlistview_header_text=0x7f080012;
+        public static final int xlistview_header_time=0x7f080014;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int fragment_recommend=0x7f030001;
+        public static final int fragment_recommend_viewpager=0x7f030002;
+        public static final int listview_item_rf=0x7f030003;
+        public static final int xlistview_footer=0x7f030004;
+        public static final int xlistview_header=0x7f030005;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -39,27 +78,40 @@ public final class R {
         public static final int GameCenter=0x7f050003;
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int download=0x7f050004;
         public static final int hello_world=0x7f050002;
+        public static final int xlistview_footer_hint_normal=0x7f050009;
+        public static final int xlistview_footer_hint_ready=0x7f05000a;
+        public static final int xlistview_header_hint_loading=0x7f050007;
+        public static final int xlistview_header_hint_normal=0x7f050005;
+        public static final int xlistview_header_hint_ready=0x7f050006;
+        public static final int xlistview_header_last_time=0x7f050008;
     }
     public static final class style {
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
     
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
+
         
 
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
+
     
  API 11 theme customizations can go here. 
 
         Base application theme for API 14+. This theme completely replaces
         AppBaseTheme from BOTH res/values/styles.xml and
         res/values-v11/styles.xml on API 14+ devices.
+
     
  API 14 theme customizations can go here. 
          */
@@ -68,5 +120,6 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
+        public static final int ratingBar=0x7f060002;
     }
 }

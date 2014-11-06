@@ -30,4 +30,10 @@
             android:src="@drawable/main_title_right" />
     </LinearLayout>
 
+    <FrameLayout
+        android:id="@+id/frame_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </FrameLayout>
+
 </LinearLayout>
